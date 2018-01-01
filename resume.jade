@@ -1,0 +1,124 @@
+extends layout
+
+block content
+  .row
+    .col-md-10.col-md-offset-1
+      h1.text-center Resume
+      .row
+        .col-md-10.col-md-offset-1
+          p
+            :markdown
+              I am a [Computer Science Engineering](http://cse.eecs.umich.edu)
+              undergraduate student at the University of Michigan with research interests 
+              in computer security and internet scanning. 
+              My research is advised by [Professor Peter Honeyman](https://citi.umich.edu/u/honey),
+              [David Adrian](https://dadrian.io) and [Zakir Durumeric](https://zakird.com).
+          hr
+      .row
+        .col-md-2.col-md-offset-1
+          b Education
+        .col-md-8
+          p
+            b
+              a(href="https://umich.edu") University of Michigan
+            | , Ann Arbor, MI
+            span.pull-right.resume-year Expected 2018
+            br
+            i Bachelor of Engineering, Computer Science
+          ul.degree-list
+            li Minor in Music
+              br
+      .row
+        .col-md-2.col-md-offset-1
+          b Relevant Experience
+        .col-md-8
+          p
+            b
+              a(href="https://eecs.umich.edu") University of Michigan
+            | , Ann Arbor, MI&nbsp;
+            span.pull-right.resume-year January 2017 - Present
+            br
+            i Research Assistant - <a href="http://censys.io">Censys</a>
+            ul.resume-list
+              li.
+                Designed and created <a href="https://github.com/zmap/zgrab2">ZGrab2</a>, an application layer scanner in Go
+              li.
+                Modified and Maintained the backend of Censys, an internet wide scanner
+              li.
+                Implemented an SMB scanner and was a driving force behind a protocol expansion
+      .row
+        .col-md-2.col-md-offset-1
+        .col-md-8
+          p
+            b
+              a(href="https://dining.umich.edu") University of Michigan Dining
+            | , Ann Arbor, MI&nbsp;
+            span.pull-right.resume-year August 2014 - August 2017
+            br
+            i Student Manager/Student Coordinator
+          ul.resume-list
+            li.
+              Implemented and integrated an attendance tracking system in Google Apps Script 
+            li.
+              Supervised, monitored, and assigned work to 10-20 student employees per shift
+            li.
+              Trained students and coordinators on dining hall procedures
+      .row
+        .col-md-2.col-md-offset-1
+          b Teaching Experience
+        .col-md-8
+          p
+            | EECS 388: Introduction to Computer Security
+            span.pull-right.resume-year January 2017 - Present
+            br
+            i Instructional Aide (IA)
+            ul.resume-list
+              li.
+                Undergraduate course on computer security
+              li.
+                Lead a weekly discussion section, held weekly office hours
+                to assist students with projects and homeworks
+              li.
+                Assisted with grading of projects and homeworks
+      .row
+        .col-md-2.col-md-offset-1
+          b Honors and Groups
+        .col-md-8
+          p 
+            | Peer Mentor - <a href="https://livingarts.engin.umich.edu">Living Arts Learning Community</a>
+            span.pull-right.resume-year August 2014 - May 2018
+            ul.resume-list
+              li
+                | Mentored students in a living learning community focused around 
+                | interdisciplinary collaboration and creativity
+      .row
+        .col-md-2.col-md-offset-1
+        .col-md-8
+          p 
+            | 2nd Place - George M Landes Prize for Technical Communication
+            span.pull-right.resume-year January 2015
+            ul.resume-list
+              li
+                | Awarded for final research paper in Underwater Vehicle Design class
+      .row
+        .col-md-2.col-md-offset-1
+        .col-md-8
+          p
+            | 2nd Place - Cooley Writing Contest
+            span.pull-right.resume-year January 2015
+            ul.resume-list
+              li 
+                | Awarded for Freshman Application essay
+      .row
+        .col-md-2.col-md-offset-1
+          b Computer Skills
+        .col-md-8
+          p
+            i Programming Languages
+          ul.resume-list
+            li.
+              C++, Go, Python, C, Java, Javascript, HTML/CSS, Latex
+      .row
+        hr
+        p.text-center.
+          [<a href="/srv/resume.pdf">PDF</a>]

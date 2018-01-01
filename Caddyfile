@@ -1,0 +1,9 @@
+localhost:8080
+
+# if directory is /assets/ change it to /dist/
+rewrite {
+    if {dir} is /img/
+    to /assets/img/{file}
+}
+
+tls off
