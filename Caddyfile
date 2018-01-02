@@ -11,4 +11,9 @@ rewrite {
     to /assets/css/{file}
 }
 
+rewrite {
+    if {dir} is /srv/
+    to /assets/srv/{file}
+}
+
 tls off
