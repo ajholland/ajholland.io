@@ -1,9 +1,14 @@
-localhost:8080
+ajholland.io:80
 
-# if directory is /assets/ change it to /dist/
+# if directory is /img/ change it to /assets/img/
 rewrite {
     if {dir} is /img/
     to /assets/img/{file}
+}
+
+rewrite {
+    if {dir} is /css/
+    to /assets/css/{file}
 }
 
 tls off
